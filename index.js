@@ -1,6 +1,6 @@
 
 
-alert("working");
+
 var randomNumber1 = Math.floor(Math.random() * 6+1);
 var root="dice"+randomNumber1+".png";
 document.querySelector(".img1").setAttribute("src",root);
